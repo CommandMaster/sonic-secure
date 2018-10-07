@@ -74,7 +74,7 @@ def take_picture():
     def delp():
         os.remove("temp.jpg")
     def dowload():
-        urllib.request.urlretrieve('frame of the ipcam''s stream', "temp.jpg")
+        urllib.request.urlretrieve('frame of the jpegstream', "temp.jpg")
 
     try:
         delp()
