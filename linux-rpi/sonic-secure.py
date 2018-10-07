@@ -4,7 +4,7 @@ import urllib.request
 import smtplib
 import time
 import serial
-import 
+import os
 
 print('setting save directory')
 path = os.getcwd()+'/pictures'
